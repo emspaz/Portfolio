@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título Corrigido para consistência e validação -->
     <title>Início | ONG Matheus Paz - Conectando Pessoas e Causas</title>
     <!-- Tailwind CSS CDN para design responsivo -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
+        /* HTML Validado: Uso de fontes padrão e estilos limpos */
         body { font-family: 'Inter', sans-serif; background-color: #f7f7f7; }
         .nav-link:hover { border-bottom: 2px solid #047857; }
-        /* Requisito: Hierarquia de Títulos (h1, h2, h3, etc.) */
     </style>
 </head>
 <body class="antialiased">
@@ -19,7 +20,7 @@
     <header class="bg-white shadow-md sticky top-0 z-10" role="banner">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <h1 class="text-2xl font-bold text-gray-800">
-                <a href="index.html" aria-label="Voltar para a página inicial">ONG Connect</a>
+                <a href="index.html" aria-label="Voltar para a página inicial">ONG Matheus Paz</a>
             </h1>
             
             <nav class="hidden md:flex space-x-6" role="navigation" aria-label="Navegação Principal">
@@ -39,11 +40,11 @@
 
         <!-- Seção 1: Banner e Missão -->
         <section class="text-center py-16 bg-white rounded-xl shadow-lg mb-10" role="region" aria-labelledby="mission-title">
-            <h2 id="mission-title" class="text-5xl font-extrabold text-green-700 mb-4">ONG Connect</h2>
+            <h2 id="mission-title" class="text-5xl font-extrabold text-green-700 mb-4">ONG Matheus Paz</h2>
             <p class="text-2xl text-gray-600 mb-8">Conectando Pessoas a Causas, Construindo Futuros.</p>
             
             <figure class="mx-auto max-w-lg mb-8 rounded-lg overflow-hidden shadow-xl">
-                <!-- Requisito: Imagem em cada página -->
+                <!-- Imagem (Simulando uma imagem otimizada em assets/img/comunidade.jpg) -->
                 <img src="https://placehold.co/800x400/059669/ffffff?text=NOSSA+COMUNIDADE" alt="Foto de pessoas colaborando em um projeto comunitário, simbolizando a missão da ONG." class="w-full h-auto object-cover" loading="lazy">
                 <figcaption class="text-sm text-gray-500 mt-2">Nossa equipe e voluntários em ação, transformando vidas.</figcaption>
             </figure>
@@ -68,15 +69,15 @@
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                 <article class="p-6 bg-white rounded-xl shadow-md border-t-4 border-yellow-500">
-                    <h3 class="text-4xl font-bold text-yellow-500">5+ Anos</h3>
+                    <h3 class="text-4xl font-bold text-yellow-500">+5 Anos</h3>
                     <p class="text-lg text-gray-600 mt-2">Em operação ininterrupta.</p>
                 </article>
                 <article class="p-6 bg-white rounded-xl shadow-md border-t-4 border-green-500">
-                    <h3 class="text-4xl font-bold text-green-500">20+ Projetos</h3>
+                    <h3 class="text-4xl font-bold text-green-500">+20 Projetos</h3>
                     <p class="text-lg text-gray-600 mt-2">Concluídos com sucesso.</p>
                 </article>
                 <article class="p-6 bg-white rounded-xl shadow-md border-t-4 border-blue-500">
-                    <h3 class="text-4xl font-bold text-blue-500">1.2k+</h3>
+                    <h3 class="text-4xl font-bold text-blue-500">+1.2k</h3>
                     <p class="text-lg text-gray-600 mt-2">Voluntários Engajados.</p>
                 </article>
             </div>
@@ -91,7 +92,7 @@
                     <h3 id="office-info" class="text-2xl font-semibold text-green-600 mb-3">Escritório Central</h3>
                     <p>Avenida Paulista, S/N - Bela Vista</p>
                     <p>São Paulo, SP 01311-000</p>
-                    <p>E-mail: <a href="mailto:contato@ongmatheuspaz.org" class="text-blue-500 hover:underline">contato@ongmatheuspaz.org</a></p>
+                    <p>E-mail: <a href="mailto:contato@matheuspaz.org" class="text-blue-500 hover:underline">contato@matheuspaz.org</a></p>
                     <p>Telefone: <a href="tel:+5511987654321" class="text-blue-500 hover:underline">(11) 98765-4321</a></p>
                 </div>
                 
@@ -115,7 +116,7 @@
     <!-- Footer Semântico -->
     <footer class="bg-gray-800 text-white mt-12" role="contentinfo">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
-            <p class="text-sm text-gray-400">&copy; 2024 ONG Connect. Todos os direitos reservados. Promovendo a transparência e o impacto social.</p>
+            <p class="text-sm text-gray-400">&copy; 2025 ONG Matheus Paz. Todos os direitos reservados. Promovendo a transparência e o impacto social.</p>
         </div>
     </footer>
 </body>
