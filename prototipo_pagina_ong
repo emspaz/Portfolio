@@ -89,9 +89,9 @@
             <address class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-700">
                 <div role="group" aria-labelledby="office-info">
                     <h3 id="office-info" class="text-2xl font-semibold text-green-600 mb-3">Escritório Central</h3>
-                    <p>Rua da Colaboração, 123 - Centro</p>
-                    <p>Cidade Solidária, CS 12345-678</p>
-                    <p>E-mail: <a href="mailto:contato@ongconnect.org" class="text-blue-500 hover:underline">contato@ongconnect.org</a></p>
+                    <p>Avenida Paulista, S/N - Bela Vista</p>
+                    <p>São Paulo, SP 01311-000</p>
+                    <p>E-mail: <a href="mailto:contato@ongmatheuspaz.org" class="text-blue-500 hover:underline">contato@ongmatheuspaz.org</a></p>
                     <p>Telefone: <a href="tel:+5511987654321" class="text-blue-500 hover:underline">(11) 98765-4321</a></p>
                 </div>
                 
