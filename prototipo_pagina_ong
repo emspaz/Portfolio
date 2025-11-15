@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início | ONG Matheus Paz - Conectando Pessoas e Causas</title>
+    <!-- Tailwind CSS CDN para design responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f7f7f7; }
+        .nav-link:hover { border-bottom: 2px solid #047857; }
+        /* Requisito: Hierarquia de Títulos (h1, h2, h3, etc.) */
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Semântico e Navegação -->
+    <header class="bg-white shadow-md sticky top-0 z-10" role="banner">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">
+                <a href="index.html" aria-label="Voltar para a página inicial">ONG Connect</a>
+            </h1>
+            
+            <nav class="hidden md:flex space-x-6" role="navigation" aria-label="Navegação Principal">
+                <a href="index.html" class="nav-link text-gray-600 font-semibold border-b-2 border-green-600 py-2">Início</a>
+                <a href="projetos.html" class="nav-link text-gray-600 hover:text-green-600 py-2">Projetos Sociais</a>
+                <a href="cadastro.html" class="nav-link text-gray-600 hover:text-green-600 py-2">Quero Participar</a>
+            </nav>
+            
+            <button class="md:hidden text-gray-600 focus:outline-none" aria-expanded="false" aria-controls="mobile-menu-list">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal Semântico -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 min-h-screen">
+
+        <!-- Seção 1: Banner e Missão -->
+        <section class="text-center py-16 bg-white rounded-xl shadow-lg mb-10" role="region" aria-labelledby="mission-title">
+            <h2 id="mission-title" class="text-5xl font-extrabold text-green-700 mb-4">ONG Connect</h2>
+            <p class="text-2xl text-gray-600 mb-8">Conectando Pessoas a Causas, Construindo Futuros.</p>
+            
+            <figure class="mx-auto max-w-lg mb-8 rounded-lg overflow-hidden shadow-xl">
+                <!-- Requisito: Imagem em cada página -->
+                <img src="https://placehold.co/800x400/059669/ffffff?text=NOSSA+COMUNIDADE" alt="Foto de pessoas colaborando em um projeto comunitário, simbolizando a missão da ONG." class="w-full h-auto object-cover" loading="lazy">
+                <figcaption class="text-sm text-gray-500 mt-2">Nossa equipe e voluntários em ação, transformando vidas.</figcaption>
+            </figure>
+
+            <article class="max-w-4xl mx-auto text-lg text-gray-700 space-y-4">
+                <h3 class="text-3xl font-bold text-gray-800 border-b pb-2">Nossa Missão, Visão e Valores</h3>
+                <p>
+                    **Missão**: Promover a inclusão social e a sustentabilidade através do engajamento comunitário, oferecendo recursos e oportunidades para o desenvolvimento integral.
+                </p>
+                <p>
+                    **Visão**: Ser referência nacional em gestão transparente de projetos sociais, inspirando a colaboração e a inovação no terceiro setor até 2030.
+                </p>
+                <p>
+                    **Valores**: Ética, Transparência, Colaboração, Inovação e Respeito.
+                </p>
+            </article>
+        </section>
+
+        <!-- Seção 2: Histórico e Conquistas (Área Institucional) -->
+        <section class="py-12" role="region" aria-labelledby="history-title">
+            <h2 id="history-title" class="text-4xl font-extrabold text-gray-900 mb-8 border-b pb-4">Conquistas e Histórico</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <article class="p-6 bg-white rounded-xl shadow-md border-t-4 border-yellow-500">
+                    <h3 class="text-4xl font-bold text-yellow-500">5+ Anos</h3>
+                    <p class="text-lg text-gray-600 mt-2">Em operação ininterrupta.</p>
+                </article>
+                <article class="p-6 bg-white rounded-xl shadow-md border-t-4 border-green-500">
+                    <h3 class="text-4xl font-bold text-green-500">20+ Projetos</h3>
+                    <p class="text-lg text-gray-600 mt-2">Concluídos com sucesso.</p>
+                </article>
+                <article class="p-6 bg-white rounded-xl shadow-md border-t-4 border-blue-500">
+                    <h3 class="text-4xl font-bold text-blue-500">1.2k+</h3>
+                    <p class="text-lg text-gray-600 mt-2">Voluntários Engajados.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção 3: Informações de Contato -->
+        <section class="py-12 bg-white mt-10 p-8 rounded-xl shadow-lg" role="region" aria-labelledby="contact-title">
+            <h2 id="contact-title" class="text-4xl font-extrabold text-gray-900 mb-6 border-b pb-4">Fale Conosco</h2>
+            
+            <address class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-700">
+                <div role="group" aria-labelledby="office-info">
+                    <h3 id="office-info" class="text-2xl font-semibold text-green-600 mb-3">Escritório Central</h3>
+                    <p>Rua da Colaboração, 123 - Centro</p>
+                    <p>Cidade Solidária, CS 12345-678</p>
+                    <p>E-mail: <a href="mailto:contato@ongconnect.org" class="text-blue-500 hover:underline">contato@ongconnect.org</a></p>
+                    <p>Telefone: <a href="tel:+5511987654321" class="text-blue-500 hover:underline">(11) 98765-4321</a></p>
+                </div>
+                
+                <div role="group" aria-labelledby="social-media-info">
+                    <h3 id="social-media-info" class="text-2xl font-semibold text-green-600 mb-3">Mídias Sociais</h3>
+                    <p>Siga-nos e acompanhe nosso impacto em tempo real.</p>
+                    <div class="flex space-x-4 mt-3">
+                        <a href="#" aria-label="Facebook" class="text-gray-500 hover:text-blue-600">
+                             <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M14 12h-2v-2h2v2zm7-7v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2zm-7 14h-2v-4h-2v-2h2v-2h2v4h2v2h-2zm-4-4h2v-2h-2v2zm-2 0h-2v-2h2v2z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="text-gray-500 hover:text-pink-600">
+                            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M7.8 2h8.4C17.6 2 19 3.4 19 5.2v8.4c0 1.8-1.4 3.2-3.2 3.2H7.8C6 16.8 4.6 15.4 4.6 13.6V5.2C4.6 3.4 6 2 7.8 2zm0 1.6c-1.1 0-2 .9-2 2v8.4c0 1.1.9 2 2 2h8.4c1.1 0 2-.9 2-2V5.2c0-1.1-.9-2-2-2H7.8zm4.2 1.8c-2.4 0-4.4 2-4.4 4.4s2 4.4 4.4 4.4 4.4-2 4.4-4.4-2-4.4-4.4-4.4zm0 6.8c-1.3 0-2.4-1.1-2.4-2.4S10.7 7.2 12 7.2s2.4 1.1 2.4 2.4-1.1 2.4-2.4 2.4zm5.8-5.6c0 .4-.3.7-.7.7s-.7-.3-.7-.7.3-.7.7-.7.7.3.7.7z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </address>
+        </section>
+
+    </main>
+
+    <!-- Footer Semântico -->
+    <footer class="bg-gray-800 text-white mt-12" role="contentinfo">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+            <p class="text-sm text-gray-400">&copy; 2024 ONG Connect. Todos os direitos reservados. Promovendo a transparência e o impacto social.</p>
+        </div>
+    </footer>
+</body>
+</html>
